@@ -71,6 +71,8 @@
             <div class="uk-grid-medium uk-flex-middle" uk-grid
                  uk-scrollspy="cls: uk-animation-slide-top-small; target:h1, a, p;  delay: 100; repeat: false;">
                 <div class="uk-width-expand@m">
+                    test_change
+
                     <h1 class="uk-h2 uk-text-bold">{{$about->post_type}}</h1>
                     <div class="f-18 uk-margin-bottom">
                         {!! $about->content !!}
